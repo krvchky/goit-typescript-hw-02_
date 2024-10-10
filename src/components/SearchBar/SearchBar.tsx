@@ -39,9 +39,9 @@ const SearchBar: React.FC<SearchBarProps> = ({ setQuery }) => {
                 type="search"
                 placeholder="Search images and photos"
               />
-              {errors.query && touched.query ? (
-                <div className={s.error}>{errors.query}</div>  validation error
-              ) : null}
+            //   {errors.query && touched.query ? (
+            //     <div className={s.error}>{errors.query}</div>  validation error
+            //   ) : null}
               <button className={s.btn}type="submit">
                 <IoSearchOutline />
               </button>
