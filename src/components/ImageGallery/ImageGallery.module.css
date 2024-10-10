@@ -1,0 +1,29 @@
+.galleryWrapper {
+    display: flex;
+    max-width: 1250px;
+    padding: 16px;
+    margin: 0 auto;
+  }
+  
+  .ulImage {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 24px;
+  }
+  
+  .imageItem {
+    width: calc ((100% - 24px) / 3); /* Учитывая промежутки между элементами */
+    box-sizing: border-box;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .imageItem img {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+  }
